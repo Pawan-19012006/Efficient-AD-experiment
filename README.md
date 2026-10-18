@@ -16,21 +16,6 @@ The current goal is to validate the end-to-end pipeline:
 
 This is a **pipeline validation experiment**, not a reproduction of the full benchmark in the EfficientAD paper.
 
-## Current Status
-
-- [x] Colab GPU environment configured
-- [x] Anomalib and EfficientAD imports verified
-- [x] Bottle subset downloaded and inspected
-- [x] Data module initialized
-- [x] EfficientAD-S initialized
-- [x] Training completed for 10 requested epochs
-- [x] Model checkpoint saved
-- [x] Predictions generated for the test set
-- [x] Image-level metrics calculated
-- [x] Pixel-level AUROC calculated
-- [x] AU-PRO calculated at an FPR limit of 0.30
-- [x] Sample anomaly maps visualized
-
 ## Environment
 
 | Component | Value |
