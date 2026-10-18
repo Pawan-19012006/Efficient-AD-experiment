@@ -210,17 +210,6 @@ The experiment is motivated by:
 
 The implementation used here is Anomalib's EfficientAD, and this notebook experiment should not be described as an exact reproduction of every experimental setting in the paper.
 
-## Next Steps
-
-- [ ] Preserve the checkpoint and experiment ZIP in persistent storage.
-- [ ] Keep the notebook, README, and results organized in the private GitHub repository.
-- [ ] Inspect false-positive and false-negative examples.
-- [ ] Verify metric implementation and settings against the paper.
-- [ ] Study EfficientAD's teacher–student architecture and autoencoder branch.
-- [ ] Study training losses, feature-map normalization, anomaly-map fusion, and AU-PRO evaluation.
-- [ ] Repeat evaluation on the complete dataset or another appropriately licensed representative dataset before making benchmark claims.
-- [ ] Consider integration with a VLM or agent only after the actual downstream use case and evaluation requirements are established.
-
 ## License and Responsible Use
 
 This repository documents an experiment and does not grant rights to the MVTec AD dataset, pretrained weights, or third-party dependencies. Review each resource's license and terms before redistribution or commercial use. The MVTec AD dataset is commonly distributed under non-commercial terms; obtain appropriate permission for any commercial application.
